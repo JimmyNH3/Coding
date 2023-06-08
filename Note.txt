@@ -1,0 +1,29 @@
+*Pair 用法
+   1. 一個物件可存放兩個值: first & second;
+   2. pair <型態(int / string / char / vector...),型態> pair name
+      宣告a為pair，前後兩值型態可不同
+      ex pair <int, char> a
+   3. #include <utility>
+   4. make_pair填入值
+      ex. a = make_pair (10,'adad');
+   5. first、second 取值
+      ex. a.first (=10), a.second (=adad)
+   參考 b966
+
+*Sort 自定義排序
+   1. 寫法1
+         sort(v.begin(), v.end(), cmp);
+         bool cmp(pii a, pii b) {
+            if (a.first == b.first) {
+               return a.second > b.second;
+            } else {
+               return a.first < b.first;
+            }
+         }
+         其中 a 為 vec 的 i + 1(下個值),  b 為 vec 的 i(當前值)
+         a > b -> 降冪排序 , a < b -> 升冪排序 
+
+   2. 寫法2
+      sort(v.begin(), v.end(), [](pair<int, int> a, pair<int, int> b){return (a.first==b.first)?a.second > b.second:a.first < b.first;});
+   參考 b966
+   
