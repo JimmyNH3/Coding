@@ -14,3 +14,5 @@ int main() {
         cout << dp[100] << endl;
     }
 }
+
+// 4 100
