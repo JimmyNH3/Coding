@@ -1,0 +1,1 @@
+{"name":"Local: te","url":"c:\\Users\\jimmy\\OneDrive - bradychen\\文件\\Coding\\NCPC\\te.cpp","tests":[{"id":1727177525302,"input":"5\n1 2\n2 3\n3 4\n4 5\n4 6\n5\n1\n2\n3\n4\n5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jimmy\\OneDrive - bradychen\\文件\\Coding\\NCPC\\te.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: te copy","url":"c:\\Users\\jimmy\\OneDrive - bradychen\\文件\\Coding\\NCPC\\te copy.cpp","tests":[{"id":1727234924839,"input":"9 8\n0 1\n1 2\n0 3\n3 4\n0 5\n5 6\n5 7\n7 8\n5 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jimmy\\OneDrive - bradychen\\文件\\Coding\\NCPC\\te copy.cpp","group":"local","local":true}
