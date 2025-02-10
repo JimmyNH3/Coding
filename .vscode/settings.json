@@ -45,6 +45,13 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "chrono": "cpp",
-        "variant": "cpp"
-    }
+        "variant": "cpp",
+        "stdlib.h": "c",
+        "valarray": "c",
+        "string.h": "c",
+        "stdio.h": "c",
+        "complex": "c"
+    },
+    "code-runner.showRunCommandInEditorContextMenu": true,
+    "code-runner.showRunCommandInExplorerContextMenu": true
 }

@@ -1,0 +1,11 @@
+1. Advantages of functions:
+    a. Reusability
+    b. Readability
+    c. Ease of maintenance
+    d. Avoid code repetition
+    e. Use ANCI C standard library to improve portability
+2. process graphics(search for ways to write)
+    a. oval:start/end of program
+    b. parallelogram:I/O
+    c. retangle:excution
+    d. diamond:if/else
