@@ -1,10 +1,16 @@
-public class HelloJava {
+class c1 {
     public static void main(String[] args) {
-        System.out.printf("%s helloworld\n", "1wq");
-        int x = 2;
-        System.out.println(x);
-        //System.out.print(0);
-        long a = 1000000000000000000L;
-        System.out.println(a);
+        c1.a1(45);
+        c2.a1("hello");
+    }
+
+    static void a1(int num) {
+        System.out.println(num * 10);
+    }
+}
+
+class c2 {
+    static void a1(String str) {
+        System.out.println("22" + str);
     }
 }
